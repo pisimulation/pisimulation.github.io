@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57012377-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-57012377-3');
+    </script>
+    <meta charset="utf-8">
+    <title>Joomy Korkut</title>
+    <meta name="description" content="PhD student in computer science at Princeton University.">
+    <meta name="author" content="Joomy Korkut">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="joomy,cumhur,korkut,cattheory,haskell,coq,idris,wesleyan,princeton" />
+    <base target="_blank">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="./assets/headshot.jpg"><img src="./assets/headshotSmall.jpg" class="photo"></a>
+      <div class="title">
+        Joomy Korkut
+      </div>
+      <div class="subtitle">
+        PhD student in computer science at Princeton University.
+      </div>
+      <div class="subsubtitle">
+        <p>
+        I'm a first year grad student, advised by <a href="https://www.cs.princeton.edu/~appel/">Andrew W. Appel</a>, working on a verified foreign function interface from Coq to C, on the <a href="http://www.cs.princeton.edu/~appel/certicoq/">CertiCoq</a> compiler via <a href="http://vst.cs.princeton.edu/">VST</a>.
+        </p>
+
+
+        <p>
+        I'm a member of the <a href="http://pl.cs.princeton.edu/">programming languages group</a>; I'm interested in dependent types, formal verification, proof automation, metaprogramming and reflection.
+        </p>
+
+        <p>
+        Before starting a PhD program, I was at <a href="https://www.wesleyan.edu/">Wesleyan University</a> (BA, MA), working with <a href="http://dlicata.web.wesleyan.edu/">Daniel R. Licata</a> on compiler verification and editor interaction for dependently typed languages.
+        </p>
+
+        <p>
+        You can reach me at <a href="mailto:joomy@cs.princeton.edu">joomy@cs.princeton.edu</a>, or look at my <a href="http://cattheory.com/joomy_cv.pdf">CV</a>, <a href="http://cattheory.com">blog</a>, or <a href="http://twitter.com/cattheory">tweets</a>.
+        </p>
+      </div>
+    </div>
+    <div class="content">
+        <section>
+          <h1>Papers</h1>
+          <ul>
+            <li>
+              <a href="http://cattheory.com/extensibleTypeDirectedEditing.pdf">Extensible Type-Directed Editing</a>.
+              Joomy Korkut, <a href="http://davidchristiansen.dk/">David Thrane Christiansen</a>. <a href="https://icfp18.sigplan.org/track/tyde-2018">TyDe ’18,</a> 2018.
+            </li>
+            <li>
+              <a href="http://cattheory.com/editTimeTacticsDraft.pdf">Edit-Time Tactics in Idris</a>.
+              Joomy Korkut. Master's thesis. Wesleyan University. 2018.
+            </li>
+            <li>
+              <a href="http://cattheory.com/ml5toJs.pdf">Thinking Outside the □: Verified Compilation of ML5 to JavaScript</a>.
+              Joomy Korkut. Undergraduate senior thesis. Wesleyan University. 2017.
+            </li>
+            <li>
+              <a href="http://cattheory.com/regexp2016.pdf">Intrinsic Verification of a Regular Expression Matcher</a>.
+              Joomy Korkut, <a href="http://trifunovski.com/">Maksim Trifunovski</a>, <a href="http://dlicata.web.wesleyan.edu/">Daniel R. Licata</a>. Unpublished draft. 2016.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h1>Talks</h1>
+          <ul>
+            <li>
+              <a href="./papers/direct-nyplse.pdf">Direct Reflection for Free!</a>, at <a href="https://nyplse.commons.gc.cuny.edu/">New York Seminar on Programming Languages and Software Engineering</a>, February 25th, 2019.
+              <br>
+              <small>
+                <a href="./papers/direct-slides.pdf">[PDF slides]</a>
+                <a href="./papers/direct-slides.key">[Keynote slides]</a>
+                <a href="https://gist.github.com/joom/81c328421ded6372ceffdcbbf58552e5">[Haskell code]</a>
+              </small>
+            </li>
+          </ul>
+        </section>
+        <div class="update">Last updated:</div>
+        <script>
+          var opt = {weekday: "long", year: "numeric", month: "long", day: "numeric"}
+          var date = new Date(document.lastModified).toLocaleDateString("en-US", opt)
+          document.querySelector(".update").innerText += " " + date
+        </script>
+    </div>
+  </body>
+</html>
