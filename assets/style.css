@@ -91,12 +91,13 @@ img.photo {
     max-height: 15%;
     float: right;
     margin: 0 0 5px 5px;
+    border-radius: 50%;
 }
 
 img.games-photo {
-    max-width: 15%;
-    max-height: 15%;
-    margin: 0 0 5px 5px;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 0;
 }
 
 @media(max-width:600pt) {
@@ -161,10 +162,4 @@ img.games-photo {
   font-size: 9pt;
 }
 
-div.games {
-    float: 
-}
 
-div.game {
-    text-align: center
-}
