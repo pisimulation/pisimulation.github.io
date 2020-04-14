@@ -87,8 +87,8 @@ a.games {
 }
 
 img.photo {
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 20%;
+    max-height: 20%;
     float: right;
     margin: 0 0 5px 5px;
     border-radius: 50%;
